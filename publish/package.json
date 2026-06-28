@@ -1,0 +1,32 @@
+{
+  "name": "publish",
+  "version": "1.0.0",
+  "description": "Vite React/Vue TypeScript 前端项目自动构建并增量部署到腾讯云 COS",
+  "type": "module",
+  "bin": {
+    "publish": "./bin/cli.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "deploy.ps1"
+  ],
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.14.7"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "vue",
+    "typescript",
+    "tencent-cos",
+    "deploy",
+    "sitemap",
+    "incremental-deploy",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
