@@ -78,7 +78,7 @@ console.log('   COS_SECRET_ID     腾讯云 SecretId');
 console.log('   COS_SECRET_KEY    腾讯云 SecretKey');
 console.log('   COS_BUCKET        腾讯云 COS 存储桶名称');
 console.log('   COS_REGION        COS 地域（如 ap-guangzhou）');
-console.log('   COS_TARGET_PATH   上传目标路径（可选，默认 /）');
+console.log('   COS_TARGET_PATH   上传目标路径（可选，默认 /Default）');
 console.log('');
 console.log(`🚀 推送至 ${cfg.branch} 分支即可自动触发部署！`);
 console.log('');
